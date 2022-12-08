@@ -1,0 +1,36 @@
+{
+    "name": "Chrome Time Tracker",
+    "description": "Uploads your screen time to your google cal",
+    "version": "0.4.0",
+    "manifest_version": 3,
+    "oauth2": {
+        "client_id": "389562941543-ie1als08r7kp2cfidrarb32dgnteinvm.apps.googleusercontent.com",
+        "scopes": [
+            "https://www.googleapis.com/auth/calendar",
+            "https://www.googleapis.com/auth/calendar.readonly",
+            "https://www.googleapis.com/auth/calendar.events"
+        ]
+    },
+    "icons": {
+        "16": "icons8-square-clock-16.png",
+        "48": "icons8-square-clock-48.png",
+        "128": "icons8-square-clock-100.png"
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    },
+    "options_page": "./options.html",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "identity",
+        "tabs",
+        "windows",
+        "storage"
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+}
