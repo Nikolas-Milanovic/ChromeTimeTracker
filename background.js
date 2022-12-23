@@ -300,7 +300,6 @@ function new_viewing(url){
     new_domain = "uninterested";
     console.log("interested.length= ", interested?.length);
     console.log(interested);
-    interested= ["youtube"];
     for(let i=0; i < (interested?.length || 0 );i++){
         if(url.includes(interested[i])){
             new_domain = interested[i];
