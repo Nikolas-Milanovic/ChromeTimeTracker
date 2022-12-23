@@ -12,6 +12,11 @@ It’s also important to recognize exactly the time of day when we are using the
 
 In short, it works by collecting the start time (when you first view the website) and the end time (when you leave the website). Once you leave the website an event will be created in your Google Calendar, with the respective start and end times, and also with the title of the social media website you visited. You can also customize the websites you wish to track screen time for.
 
+## Technical Specifics:
+* Used OAuth 2.0 to Access Google APIs, such as read and write to user's Google Calender.
+* Leveraged Google's Extension APIs: chrome.storage, chrome.identity, chrome.window, chrome.tabs.
+
+
 *You must view the webpage for more than one minute for the screen time session to be uploaded to your Google calendar.*
 
 Download it on the Chrome Web Store:
