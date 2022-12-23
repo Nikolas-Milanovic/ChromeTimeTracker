@@ -1,4 +1,5 @@
-# Chrome-Time-Tracker (Chrome Extension)
+# ChromeTimeTracker - Get The Chrome Extension:
+https://chrome.google.com/webstore/detail/chrome-time-tracker/dcfplhjfgeeffdagbenbdmmccdkjanon/related?hl=en-GB&authuser=0
 Uploads your screen time as Google calendar events.
 
 ## Relevance
